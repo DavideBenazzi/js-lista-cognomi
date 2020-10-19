@@ -8,3 +8,8 @@ scrivi anche la posizione "umana" della lista in cui il nuovo utente si trova
 var user = prompt('Qual\'è il tuo cognome?');
 
 var lista = ['Bianchi' , 'Rossi' , 'Duzioni' , 'Balsano' , 'Giorgini'];
+
+lista.push(user);
+
+console.log( lista.sort() );
+console.log( lista.indexOf(user) + 1 );
